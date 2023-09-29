@@ -4,28 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Sameer's Portfolio</title>
     <link rel="stylesheet" href="loco.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div id="minicircle">
 
-    </div>
+<body>
+    <div id="minicircle"></div>
     <div id="main">
+
+        <!-- --------Hero Section-------- -->
+
         <div id="hero">
+
+            <!-- Navigation Bar -->
+
             <div id="nav">
-                <a href="#">Sameer Hussain</a>
-                <div id="navbar">
-                    <a href="#heading">Home</a>
-                    <a href="#second">Projects</a>
-                    <a href="#about">About</a>
-                    <a href="#subscribe">Contact</a>
+                <div class="nav__logo">
+                    <a href="#">Sameer Hussain</a>
                 </div>
+                <ul class="nav__item">
+                    <li> <a class="nav__link" href="">Home</a></li>
+                    <li> <a class="nav__link" href="">Project</a></li>
+                    <li> <a class="nav__link" href="">About</a></li>
+                    <li> <a class="nav__link" href="">Contact</a></li>
+                </ul>
+                <button class="nav__bar">
+                    <i class="ri-menu-fill"></i>
+                </button>
             </div>
+
+            <!-- Navigation Bar -->
+
+            <!-- Hero Section -->
+
             <div id="heading">
                 <div class="bounding">
                     <h1 class="boundingelem">Frontend</h1>
@@ -50,7 +64,7 @@
 
             </div>
             <div id="herofooter">
-                <a href="#">Welcome to my portfolio<i class="ri-arrow-right-down-line"></i></a>
+                <a class="welcome" href="#">Welcome to my portfolio<i class="ri-arrow-right-down-line"></i></a>
                 <a href="#">Explore my work<i class="ri-arrow-right-down-line"></i></a>
                 <div id="iconset">
                     <div class="circle"><i class="ri-arrow-down-line"></i></div>
@@ -59,6 +73,11 @@
             </div>
 
         </div>
+
+
+        <!-- --------Project Section-------- -->
+
+
         <div id="second">
             <div class="elem">
                 <img src="./img/Group 2.png" alt="">
@@ -76,22 +95,32 @@
                 <h6>Project</h6>
             </div>
         </div>
+
+
+        <!-- --------About Section-------- -->
+
+
         <div id="about">
             <img src="./img/Ellipse 3.png" alt="">
             <div id="textabout">
                 <h5>(About me)</h5>
-                <p>As a passionate and ambitious web developer, I am eager to kickstart my career in frontend
-                    development. I have a strong foundation in HTML, CSS, JavaScript, and I'm familiar with frameworks
-                    like React. With a keen eye for design and a dedication to creating user-friendly experiences with
-                    proficiency in UX/UI, I am confident in my ability to contribute to the development of visually
-                    appealing websites.
+                <p>
+                    As a passionate and ambitious web developer, I'm eager to kickstart my career in frontend
+                    development. With a strong foundation in HTML, CSS, JavaScript, and familiarity with frameworks like
+                    React, I'm well-equipped to create visually appealing and user-friendly websites. My keen eye for
+                    design and proficiency in UX/UI further enhance my abilities.
 
-                    Though I may be a fresher, I bring a strong willingness to learn, adapt, and grow in a professional
-                    environment. I am eager to apply my knowledge and skills to real-world projects, working
-                    collaboratively with a team to deliver exceptional digital experiences.</p>
+                    While I may be new to the industry, I bring a strong willingness to learn, adapt, and grow in a
+                    professional environment. I'm excited to apply my knowledge and skills to real-world projects,
+                    working collaboratively with a team to deliver exceptional digital experiences.</p>
                 <a href="#">Let's Talk</a>
             </div>
         </div>
+
+
+        <!-- --------Connect Section-------- -->
+
+
         <div id="subscribe">
             <h5>Don't forget to</h5>
             <h3>Share Your Thoughts and Feedback<i class="ri-arrow-right-up-line"></i></h3>
@@ -106,9 +135,16 @@
             </div>
         </div>
     </div>
+
+
+    <!-- --------End of Design-------- -->
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
+
+
 </body>
 
 </html>
