@@ -310,15 +310,17 @@ body {
     text-decoration: none;
 }
 
-
 /* xxs */
 @media (min-width: 350px) {
+    #minicircle {
+        display: none;
+    }
     #heading h1 {
         font-size: 2.8rem;
     }
 
     #herofooter a {
-        font-size: 13px;
+        font-size: 0.9rem;
     }
 
     #about {
@@ -341,8 +343,6 @@ body {
         gap: 1rem;
 
     }
-
-
 }
 
 
@@ -363,6 +363,8 @@ body {
 
     #textabout{
         margin-top: 2rem;
+        width: 24rem;
+
     }
 
     #footer{
@@ -378,7 +380,7 @@ body {
 /* sm */
 @media (min-width: 640px) {
     #minicircle {
-        display: flex;
+        display: none;
     }
 
 
@@ -492,6 +494,7 @@ body {
     }
     
 }
+
 
 /* main */
 
