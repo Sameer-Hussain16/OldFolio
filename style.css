@@ -489,6 +489,34 @@ body {
 
 /* 2xl */
 @media (min-width: 1536px) {
+        #heading h1 {
+        font-size: 2.8rem;
+    }
+
+    #herofooter a {
+        font-size: 0.9rem;
+    }
+
+    #about {
+        display: block;
+        padding: 15vw 8vw;
+        width: 100%;
+    }
+
+    #textabout{
+        width: 18rem;
+        margin-top: 2rem;
+    }
+
+    #footer{
+        display: block;
+    }
+
+    #footerright {
+        margin-top: 1rem;
+        gap: 1rem;
+
+    }
     
     
 }
