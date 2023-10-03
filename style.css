@@ -489,9 +489,7 @@ body {
 
 /* 2xl */
 @media (min-width: 1536px) {
-    #heading h1 {
-        font-size: 10rem;
-    }
+    
     
 }
 
