@@ -489,7 +489,7 @@ body {
 
 /* 2xl */
 @media (min-width: 1536px) {
-        #heading h1 {
+/*         #heading h1 {
         font-size: 2.8rem;
     }
 
@@ -516,7 +516,7 @@ body {
         margin-top: 1rem;
         gap: 1rem;
 
-    }
+    } */
     
     
 }
