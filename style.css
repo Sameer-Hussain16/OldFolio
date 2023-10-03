@@ -299,7 +299,7 @@ body {
 
 #footerright {
     display: flex;
-    gap: 1.875rem;
+    gap: 2rem;
 }
 
 #footer a {
