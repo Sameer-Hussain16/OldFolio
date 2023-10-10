@@ -1,7 +1,27 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
+
+function smoothScroll(targetId) {
+    const targetElement = document.getElementById(targetId);
+  
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth'});
+    }
+  }
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.nav__link');
+  
+    navLinks.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+  
+        const targetId = link.getAttribute('href').substring(1);
+        smoothScroll(targetId);
+        console.log("sam");
+
+      });
+    });
+  });
+  
 
 function firstPageAnim(){
     var tl = gsap.timeline();
